@@ -1,0 +1,19 @@
+{
+  "type": "object",
+  "properties": {
+    "type": {
+      "const": "LOG-DATA"
+    },
+    "result": {
+      "$ref": "definitions.json#/flightLog"
+    },
+    "error": {
+      "$ref": "definitions.json#/error"
+    },
+    "receipt": {
+      "$ref": "definitions.json#/receiptId"
+    }
+  },
+  "required": ["type"],
+  "additionalProperties": false
+}

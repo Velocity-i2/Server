@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "properties": {
+    "type": {
+      "const": "SYS-TIME"
+    },
+    "timestamp": {
+      "type": "number"
+    }
+  },
+  "required": ["type", "timestamp"]
+}

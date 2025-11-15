@@ -1,0 +1,22 @@
+{
+  "type": "object",
+  "properties": {
+    "type": {
+      "const": "LOG-INF"
+    },
+    "result": {
+      "type": "object",
+      "additionalProperties": {
+        "$ref": "definitions.json#/flightLogMetadataList"
+      }
+    },
+    "error": {
+      "$ref": "definitions.json#/errorMap"
+    },
+    "receipt": {
+      "$ref": "definitions.json#/receiptMap"
+    }
+  },
+  "required": ["type"],
+  "additionalProperties": false
+}

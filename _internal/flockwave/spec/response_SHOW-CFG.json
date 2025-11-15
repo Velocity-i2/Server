@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "properties": {
+    "type": {
+      "const": "SHOW-CFG"
+    },
+    "configuration": {
+      "$ref": "definitions.json#/droneShowConfiguration"
+    }
+  },
+  "required": ["type", "configuration"]
+}
