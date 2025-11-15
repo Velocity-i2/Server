@@ -1,0 +1,9 @@
+{
+  "type": "object",
+  "properties": {
+    "type": {
+      "const": "SYS-PING"
+    }
+  },
+  "required": ["type"]
+}

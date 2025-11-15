@@ -1,0 +1,15 @@
+{
+  "type": "object",
+  "properties": {
+    "type": {
+      "const": "DEV-SUB"
+    },
+    "paths": {
+      "$ref": "definitions.json#/deviceTreePathList"
+    },
+    "lazy": {
+      "type": "boolean"
+    }
+  },
+  "required": ["type", "paths"]
+}

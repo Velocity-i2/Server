@@ -1,0 +1,16 @@
+{
+  "type": "object",
+  "properties": {
+    "type": {
+      "const": "SYS-MSG"
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "$ref": "definitions.json#/logMessage"
+      },
+      "minItems": 1
+    }
+  },
+  "required": ["type", "items"]
+}

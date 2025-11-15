@@ -1,0 +1,10 @@
+{
+  "oneOf": [
+    {
+      "$ref": "response_AUTH-RESP_Single-Step.json#"
+    },
+    {
+      "$ref": "response_AUTH-RESP_Multi-Step.json#"
+    }
+  ]
+}

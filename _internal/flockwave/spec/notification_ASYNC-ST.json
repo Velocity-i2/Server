@@ -1,0 +1,19 @@
+{
+  "type": "object",
+  "properties": {
+    "type": {
+      "const": "ASYNC-ST"
+    },
+    "id": {
+      "$ref": "definitions.json#/receiptId"
+    },
+    "progress": {
+      "$ref": "definitions.json#/progress"
+    },
+    "suspended": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "required": ["type", "id", "progress"]
+}

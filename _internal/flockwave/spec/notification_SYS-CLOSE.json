@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "properties": {
+    "type": {
+      "const": "SYS-CLOSE"
+    },
+    "reason": {
+      "type": "string"
+    }
+  },
+  "required": ["type"]
+}
